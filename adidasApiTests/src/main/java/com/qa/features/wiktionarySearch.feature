@@ -1,8 +1,8 @@
 Feature: Search on Wiktionary page
-	I want to be able to search for any given word on the wikstionary page
+	I want to be able to search for any given word on the wiktionary page
   
 @sanity @uiTest
-Scenario Outline: Search for specific string on wikitionary page
+Scenario Outline: Search for specific string on wiktionary page
 	Given User is on wiktionary homepage
 	And User enters the word <lookup> on the search field
 	When User clicks on look up button
