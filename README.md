@@ -16,7 +16,6 @@ In order to run the project you would need the following installed on your local
 - Java JDK: https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html 
 - A Java IDE: https://www.eclipse.org/downloads/
 - Maven installed on your system (In my case, I worked on a Mac, and there was no need for any extra step other than building the MAVEN project)
-- For UI tests: Update the system path to include the geckodriver location, else the driver will not initialize. e.g.: run this on your terminal (for Mac/Linux): “export PATH=$PATH:/path/to/geckodriver”
 
 
 
