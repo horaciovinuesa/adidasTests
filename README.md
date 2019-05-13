@@ -26,7 +26,7 @@ Steps for running the tests:
 2. Add JUnit 4 to the build path (if this is thrown on an IDE such as eclipse, you will be prompted to fix it automatically)
 3. Install the “Natural” plugin in your eclipse. This is for handling the feature files, if you navigate to any feature file, the IDE will prompt with the installation option, don’t install the JBehave plugin, just the cucumber one.
 4. Right click on the project root folder, select Maven -> Update project in order to download dependencies and do a build install
-5. On the config file, replace <horacioapikey> with “appid=636dfe2b75b6f5a632f1f4bc64dc30a4” 
+5. On the config file, replace <horacioapikey> with a valid app id 
 
 In order to execute the tests right click on the TestRunner.java file under com.qa.runner and select Run As -> JUnit Test
 This will generate a report under reports/execution_reports
