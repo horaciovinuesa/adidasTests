@@ -1,0 +1,1197 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Get current weather data by city ID",
+        "description": "",
+        "id": "get-weather-by-city-id;get-current-weather-data-by-city-id;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 920975963,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city 3686513 by city id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3686513",
+                  "offset": 32
+                },
+                {
+                  "val": "id",
+                  "offset": 48
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3070030,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get current weather data by city ID",
+        "description": "",
+        "id": "get-weather-by-city-id;get-current-weather-data-by-city-id;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 353037771,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city 2643743 by city id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2643743",
+                  "offset": 32
+                },
+                {
+                  "val": "id",
+                  "offset": 48
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182465,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get current weather data by city ID",
+        "description": "",
+        "id": "get-weather-by-city-id;get-current-weather-data-by-city-id;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 316395795,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city 3104324 by city id",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3104324",
+                  "offset": 32
+                },
+                {
+                  "val": "id",
+                  "offset": 48
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 390607,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      }
+    ],
+    "name": "Get weather by city id",
+    "description": "I want to be able to get the current weather for a given city using the city id",
+    "id": "get-weather-by-city-id",
+    "keyword": "Feature",
+    "uri": "getWeatherByCityId.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Get current weather data by city name",
+        "description": "",
+        "id": "get-weather-by-city-name;get-current-weather-data-by-city-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 449430046,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city Cordoba,AR by city name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cordoba,AR",
+                  "offset": 32
+                },
+                {
+                  "val": "name",
+                  "offset": 51
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332425,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get current weather data by city name",
+        "description": "",
+        "id": "get-weather-by-city-name;get-current-weather-data-by-city-name;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 274629627,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city London,UK by city name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London,UK",
+                  "offset": 32
+                },
+                {
+                  "val": "name",
+                  "offset": 50
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318059,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get current weather data by city name",
+        "description": "",
+        "id": "get-weather-by-city-name;get-current-weather-data-by-city-name;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 310311684,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city Zaragoza,ES by city name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Zaragoza,ES",
+                  "offset": 32
+                },
+                {
+                  "val": "name",
+                  "offset": 52
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 326638,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      }
+    ],
+    "name": "Get weather by city name",
+    "description": "I want to be able to get the current weather for a given city using the city name",
+    "id": "get-weather-by-city-name",
+    "keyword": "Feature",
+    "uri": "getWeatherByCityName.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Get current weather data by geographic coordinates",
+        "description": "",
+        "id": "get-weather-by-geographic-coordinates;get-current-weather-data-by-geographic-coordinates;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 340116180,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets data for the city lat -27.78 and lon -67.24 by city geolocation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "-27.78",
+                  "offset": 32
+                },
+                {
+                  "val": "-67.24",
+                  "offset": 47
+                },
+                {
+                  "val": "geolocation",
+                  "offset": 62
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city_by_geoloc(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 272125,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get current weather data by geographic coordinates",
+        "description": "",
+        "id": "get-weather-by-geographic-coordinates;get-current-weather-data-by-geographic-coordinates;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 352838506,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets data for the city lat 41.65 and lon -0.88 by city geolocation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "41.65",
+                  "offset": 32
+                },
+                {
+                  "val": "-0.88",
+                  "offset": 46
+                },
+                {
+                  "val": "geolocation",
+                  "offset": 60
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city_by_geoloc(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 215066,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get current weather data by geographic coordinates",
+        "description": "",
+        "id": "get-weather-by-geographic-coordinates;get-current-weather-data-by-geographic-coordinates;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 263969749,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets data for the city lat 51,51 and lon -0.13 by city geolocation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "51,51",
+                  "offset": 32
+                },
+                {
+                  "val": "-0.13",
+                  "offset": 46
+                },
+                {
+                  "val": "geolocation",
+                  "offset": 60
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city_by_geoloc(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213278,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      }
+    ],
+    "name": "Get weather by geographic coordinates",
+    "description": "I want to be able to get the current weather for a given city using the city geographic coordinates",
+    "id": "get-weather-by-geographic-coordinates",
+    "keyword": "Feature",
+    "uri": "getWeatherByGeoCoord.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Get current weather data by zip code",
+        "description": "",
+        "id": "get-weather-by-zip-code;get-current-weather-data-by-zip-code;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 300059085,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city 5000,AR by city zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5000,AR",
+                  "offset": 32
+                },
+                {
+                  "val": "zipcode",
+                  "offset": 48
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 336479,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Get current weather data by zip code",
+        "description": "",
+        "id": "get-weather-by-zip-code;get-current-weather-data-by-zip-code;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 595751612,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city 50001,ES by city zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "50001,ES",
+                  "offset": 32
+                },
+                {
+                  "val": "zipcode",
+                  "offset": 49
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190083,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get current weather data by zip code",
+        "description": "",
+        "id": "get-weather-by-zip-code;get-current-weather-data-by-zip-code;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 501853864,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the data for the city EC3,GB by city zipcode",
+            "match": {
+              "arguments": [
+                {
+                  "val": "EC3,GB",
+                  "offset": 32
+                },
+                {
+                  "val": "zipcode",
+                  "offset": 47
+                }
+              ],
+              "location": "ApiSteps.user_gets_data_for_city(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 162358,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The data is complete and contains the sections weather main wind clouds",
+            "match": {
+              "arguments": [
+                {
+                  "val": "weather",
+                  "offset": 47
+                },
+                {
+                  "val": "main",
+                  "offset": 55
+                },
+                {
+                  "val": "wind",
+                  "offset": 60
+                },
+                {
+                  "val": "clouds",
+                  "offset": 65
+                }
+              ],
+              "location": "ApiSteps.data_is_complete_and_sections_are_complete(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      }
+    ],
+    "name": "Get weather by zip code",
+    "description": "I want to be able to get the current weather for a given city using the city zip code",
+    "id": "get-weather-by-zip-code",
+    "keyword": "Feature",
+    "uri": "getWeatherByZipCode.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Get status of the service by quering the default city",
+        "description": "",
+        "id": "health-check;get-status-of-the-service-by-quering-the-default-city",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6796506931,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gets the status of the openweathermap service",
+            "match": {
+              "location": "ApiSteps.user_gets_the_service_status()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 144770,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The service is up and running",
+            "match": {
+              "location": "ApiSteps.user_checks_the_service_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          },
+          {
+            "line": 4,
+            "name": "@apiTest"
+          }
+        ]
+      }
+    ],
+    "name": "Health check",
+    "description": "I want to be able to get the current weather for the default city and check that the service is up and running",
+    "id": "health-check",
+    "keyword": "Feature",
+    "uri": "healthCheck.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Search for specific string on wikitionary page",
+        "description": "",
+        "id": "search-on-wiktionary-page;search-for-specific-string-on-wikitionary-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4173283270,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on wiktionary homepage",
+            "match": {
+              "location": "WiktionarySteps.user_gets_the_service_status()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546611225,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the word apple on the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "apple",
+                  "offset": 21
+                }
+              ],
+              "location": "WiktionarySteps.user_enters_the_word_on_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1489132108,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on look up button",
+            "match": {
+              "location": "WiktionarySteps.user_clicks_on_lookup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1487004284,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The results contain the value A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates. on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.",
+                  "offset": 30
+                }
+              ],
+              "location": "WiktionarySteps.user_clicks_on_lookup_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@uiTest"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Search for specific string on wikitionary page",
+        "description": "",
+        "id": "search-on-wiktionary-page;search-for-specific-string-on-wikitionary-page;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4900814517,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on wiktionary homepage",
+            "match": {
+              "location": "WiktionarySteps.user_gets_the_service_status()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 460816091,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the word pear on the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pear",
+                  "offset": 21
+                }
+              ],
+              "location": "WiktionarySteps.user_enters_the_word_on_search_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1238665902,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on look up button",
+            "match": {
+              "location": "WiktionarySteps.user_clicks_on_lookup_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1278140167,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The results contain the value An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem. on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.",
+                  "offset": 30
+                }
+              ],
+              "location": "WiktionarySteps.user_clicks_on_lookup_button(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@uiTest"
+          },
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Search on Wiktionary page",
+    "description": "I want to be able to search for any given word on the wikstionary page",
+    "id": "search-on-wiktionary-page",
+    "keyword": "Feature",
+    "uri": "wiktionarySearch.feature"
+  }
+]
